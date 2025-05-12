@@ -1,5 +1,25 @@
 {
+  "name": "sportify_clone",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
-    "mongodb": "^6.16.0"
-  }
+    "bson": "^6.10.3",
+    "memory-pager": "^1.5.0",
+    "mongodb": "^6.16.0",
+    "mongodb-connection-string-url": "^3.0.2",
+    "punycode": "^2.3.1",
+    "sparse-bitfield": "^3.0.3",
+    "tr46": "^5.1.1",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^14.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix back-end && npm run build --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
