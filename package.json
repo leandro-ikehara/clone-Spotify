@@ -18,6 +18,11 @@
     "build": "npm install --prefix back-end && npm run build --prefix front-end && npm run build --prefix front-end",
     "start": "npm run start --prefix back-end"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro-ikehara/clone-Spotify.git"
+  },
+  "homepage": "https://github.com/leandro-ikehara/clone-Spotify.git#readme",
   "keywords": [],
   "author": "",
   "license": "ISC",
